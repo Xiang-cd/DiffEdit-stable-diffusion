@@ -41,6 +41,7 @@ clamp_rate: float = 4
 # so the larger clamp rate is, less pixes will be encode to 1, the small clamp rate is, the more pixes will be encode to 1.
 ddim_steps: int = 15
 # for dpm-solver, steps do not need be too large
+# encourage to use other parameter(like order, predict_x0) of dpm-solver
 ```
 
 
